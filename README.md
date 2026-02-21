@@ -1,6 +1,6 @@
 # emanon-ossync
 
-Personal overrides for OSSetup (`core + personal` workspace mode).
+Personal runtime data repository for OSSetup (`core engine + personal data`).
 
 ## Bootstrap
 
@@ -8,9 +8,11 @@ Personal overrides for OSSetup (`core + personal` workspace mode).
 curl -fsSL https://raw.githubusercontent.com/biendo27/emanon-ossync/main/bin/raw-bootstrap.sh | bash
 ```
 
-## Workspace contract
+## Initialize/repair personal data tree
 
-See `.ossetup-workspace.json`.
+```bash
+./bin/init-personal-data.sh
+```
 
 ## Daily commands
 
@@ -18,5 +20,6 @@ See `.ossetup-workspace.json`.
 ../OSSetup/bin/ossetup sync --preview
 ../OSSetup/bin/ossetup sync --apply
 ../OSSetup/bin/ossetup sync-all --scope state --apply --target auto
+../OSSetup/bin/ossetup promote --target auto --scope all --from-state latest --apply
 ../OSSetup/bin/ossetup verify --strict --report
 ```

@@ -4,5 +4,5 @@
   "core_repo_ref": "main",
   "core_repo_path": "../OSSetup",
   "user_id": "emanon",
-  "mode": "personal-overrides"
+  "mode": "personal-only"
 }

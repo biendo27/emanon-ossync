@@ -26,6 +26,8 @@ fi
 
 command -v jq >/dev/null 2>&1 || { echo "missing dependency: jq" >&2; exit 1; }
 
+"$PERSONAL_DIR/bin/init-personal-data.sh"
+
 core_url_override="${OSSETUP_CORE_REPO_URL:-}"
 core_ref_override="${OSSETUP_CORE_REPO_REF:-}"
 
