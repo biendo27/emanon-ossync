@@ -1,0 +1,9 @@
+@anthropic-ai/claude-code
+@openai/codex
+claudekit-cli
+corepack
+npm
+opencode-ai
+repomix
+rmbg-cli
+wrangler

@@ -1,0 +1,7 @@
+reports/
+.ossetup.lock/
+
+# Never commit editor sqlite state databases
+**/globalStorage/state.vscdb
+**/globalStorage/state.vscdb.backup
+**/globalStorage/state.vscdb.*

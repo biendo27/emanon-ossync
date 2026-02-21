@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "core_repo_url": "https://github.com/biendo27/os-setup.git",
+  "core_repo_ref": "main",
+  "core_repo_path": "../OSSetup",
+  "user_id": "emanon",
+  "mode": "personal-overrides"
+}

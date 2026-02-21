@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+}
